@@ -5,12 +5,9 @@ import { escapeInject, dangerouslySkipEscape } from "vite-plugin-ssr";
 import logoUrl from "./logo.svg";
 
 export { render };
-// See https://vite-plugin-ssr.com/data-fetching
-export const passToClient = ["pageProps", "urlPathname"];
+export const passToClient = ["pageProps", "documentProps"];
 
 async function render(pageContext) {
-  const documentProps = pageContext.pageExports.documentProps;
-
   const { Page, pageProps } = pageContext;
   const pageHtml = ReactDOMServer.renderToString(
     <PageShell pageContext={pageContext}>
@@ -19,8 +16,9 @@ async function render(pageContext) {
   );
 
   // See https://vite-plugin-ssr.com/head
-  // const { documentProps } = pageContext;
-  const title = (documentProps && documentProps.title) || "Vite SSR app";
+  const { documentProps } = pageContext;
+  const title =
+    (documentProps && documentProps.title) || "George Nicolae Portfolio";
   const desc =
     (documentProps && documentProps.description) ||
     "App using Vite + vite-plugin-ssr";

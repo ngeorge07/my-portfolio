@@ -35,6 +35,7 @@ function Content({ children }) {
         borderLeft: "2px solid #eee",
         minHeight: "100vh",
       }}
+      id="page-content"
     >
       {children}
     </div>
