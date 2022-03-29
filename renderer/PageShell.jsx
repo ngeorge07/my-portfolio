@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./PageShell.css";
+import "./PageShell.scss";
 import { PageContextProvider } from "./usePageContext";
 import { Link } from "./Link";
 
