@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./PageShell.scss";
+import "./scss/PageShell.scss";
 import { PageContextProvider } from "./usePageContext";
-import { Link } from "./Link";
+
+import Header from "./Header";
 
 export { PageShell };
 
@@ -10,16 +11,7 @@ function PageShell({ pageContext, children }) {
   return (
     <React.StrictMode>
       <PageContextProvider pageContext={pageContext}>
-        <Logo />
-        <Link className="navitem" href="/">
-          Home
-        </Link>
-        <Link className="navitem" href="/projects">
-          Projects
-        </Link>
-        <Link className="navitem" href="/contact">
-          Contact
-        </Link>
+        <Header />
         <Content>{children}</Content>
       </PageContextProvider>
     </React.StrictMode>
@@ -28,7 +20,7 @@ function PageShell({ pageContext, children }) {
 
 function Content({ children }) {
   return (
-    <div
+    <main
       style={{
         padding: 20,
         paddingBottom: 50,
@@ -38,14 +30,6 @@ function Content({ children }) {
       id="page-content"
     >
       {children}
-    </div>
-  );
-}
-
-function Logo() {
-  return (
-    <a href="/">
-      <h1>George Nicolae</h1>
-    </a>
+    </main>
   );
 }

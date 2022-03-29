@@ -1,0 +1,18 @@
+$primary-1: #202023;
+$primary-2: #f3f3f3;
+$secondary: #26c7bc;
+$accent: #b82676;
+$footer-header-dark-bg: #131313;
+$footer-header-light-bg: rgb(230, 230, 230);
+
+:root {
+  --page-background-color: #{$primary-1};
+  --text-color: #{$primary-2};
+  --footer-header-bg: #{$footer-header-dark-bg};
+}
+
+:root[data-theme="light"] {
+  --page-background-color: #{$primary-2};
+  --text-color: #{$primary-1};
+  --footer-header-bg: #{$footer-header-light-bg};
+}
