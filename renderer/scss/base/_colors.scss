@@ -8,11 +8,13 @@ $footer-header-light-bg: rgb(230, 230, 230);
 :root {
   --page-background-color: #{$primary-1};
   --text-color: #{$primary-2};
+  --secondary: #{$secondary};
   --footer-header-bg: #{$footer-header-dark-bg};
 }
 
 :root[data-theme="light"] {
   --page-background-color: #{$primary-2};
   --text-color: #{$primary-1};
+  --secondary: #{$accent};
   --footer-header-bg: #{$footer-header-light-bg};
 }

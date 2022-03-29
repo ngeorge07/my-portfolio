@@ -1,13 +1,21 @@
 /* This CSS is common to all pages */
 @use "./layout/header";
 @use "./base/colors";
-
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:wght@500;600;700&display=swap");
+@use "./base/typography";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+button {
+  background: none;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 body {

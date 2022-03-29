@@ -6,5 +6,5 @@ export const documentProps = {
 };
 
 function Page() {
-  return <h1>Contact</h1>;
+  return <h2>Contact</h2>;
 }

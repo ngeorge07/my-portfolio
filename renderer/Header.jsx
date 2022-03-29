@@ -5,18 +5,28 @@ import ThemeChanger from "../components/ThemeChanger";
 function Header() {
   return (
     <header>
-      <Logo />
       <nav>
-        <Link className="navitem" href="/">
-          Home
-        </Link>
-        <Link className="navitem" href="/projects">
-          Projects
-        </Link>
-        <Link className="navitem" href="/contact">
-          Contact
-        </Link>
+        <Logo />
+
+        <ul>
+          <li>
+            <Link className="navitem" href="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="navitem" href="/projects">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link className="navitem" href="/contact">
+              Contact
+            </Link>
+          </li>
+        </ul>
       </nav>
+
       <ThemeChanger />
     </header>
   );
@@ -24,7 +34,7 @@ function Header() {
 
 function Logo() {
   return (
-    <a href="/">
+    <a id="logo" href="/">
       <h1>George Nicolae</h1>
     </a>
   );

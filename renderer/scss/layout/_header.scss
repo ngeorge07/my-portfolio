@@ -1,10 +1,38 @@
 header {
   background-color: var(--footer-header-bg);
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.2rem 4% 1rem 4%;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+}
+
+#logo {
+  width: fit-content;
+}
+
+svg {
+  width: 2.5rem;
+
+  path {
+    fill: var(--secondary);
+  }
 }
 
 .navitem {
   padding: 3px 10px;
 }
 .navitem.is-active {
-  background-color: #eee;
+  background-color: hotpink;
 }
