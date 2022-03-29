@@ -13,9 +13,13 @@ const { hydrationPromise } = useClientRouter({
     const container = document.querySelector("#page-view");
 
     if (pageContext.isHydration) {
-      hydrate(page, container);
+      setTimeout(() => {
+        hydrate(page, container);
+      }, 400);
     } else {
-      render(page, container);
+      setTimeout(() => {
+        render(page, container);
+      }, 400);
     }
     document.title = getPageTitle(pageContext);
   },
@@ -28,10 +32,24 @@ hydrationPromise.then(() => {
 });
 
 function onTransitionStart() {
-  document.querySelector("#page-content").classList.add("page-transition");
+  document
+    .querySelector("#page-content")
+    .classList.add("page-transition-start");
+
+  document
+    .querySelector("#page-content")
+    .classList.remove("page-transition-end");
 }
 function onTransitionEnd() {
-  document.querySelector("#page-content").classList.remove("page-transition");
+  setTimeout(() => {
+    document
+      .querySelector("#page-content")
+      .classList.remove("page-transition-start");
+
+    document
+      .querySelector("#page-content")
+      .classList.add("page-transition-end");
+  }, 400);
 }
 
 function getPageTitle(pageContext) {
