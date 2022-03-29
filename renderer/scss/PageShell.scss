@@ -28,6 +28,28 @@ a {
   text-decoration: none;
 }
 
+.progress-value {
+  animation: load 3s normal forwards;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+
+  25% {
+    width: 25%;
+  }
+
+  70% {
+    width: 70%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 // Transitions
 .page-transition-start {
   transition: all 0.4s ease-in-out;

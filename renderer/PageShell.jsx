@@ -1,20 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./scss/PageShell.scss";
 import { PageContextProvider } from "./usePageContext";
 
 import Header from "./Header";
+import LoadingScreen from "../components/LoadingScreen";
 
 export { PageShell };
 
 function PageShell({ pageContext, children }) {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3000);
+  }, []);
+
   return (
-    <React.StrictMode>
-      <PageContextProvider pageContext={pageContext}>
-        <Header />
-        <Content>{children}</Content>
-      </PageContextProvider>
-    </React.StrictMode>
+    <>
+      {loading === false ? (
+        <React.StrictMode>
+          <PageContextProvider pageContext={pageContext}>
+            <Header />
+            <Content>{children}</Content>
+          </PageContextProvider>
+        </React.StrictMode>
+      ) : (
+        <LoadingScreen />
+      )}
+    </>
   );
 }
 
