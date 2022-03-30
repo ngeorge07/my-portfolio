@@ -1,19 +1,18 @@
 import React from "react";
 import TextSection from "../../../components/TextSection";
+import picture from "/akva.png";
 import IndividualProject from "../../../components/IndividualProject";
-
-import picture from "/robo-chat.png";
 
 export { Page };
 export const documentProps = {
-  title: "Robo-Chat-Project",
+  title: "Akva-Project",
 };
 
 function Page() {
   const props = {
-    title: "Robo Chat",
-    liveLink: "https://robo-chat.netlify.app/",
-    repoLink: "https://github.com/ngeorge07/chatty-app",
+    title: "Akva Exam Project",
+    liveLink: "https://ngeorge07.github.io/akva-exam-improvements/",
+    repoLink: "https://github.com/ngeorge07/akva-exam-improvements",
     photo: `${picture}`,
   };
 

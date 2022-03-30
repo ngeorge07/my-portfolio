@@ -4,10 +4,11 @@ import ProjectsContainer from "../../components/ProjectsContainer";
 import ProjectCard from "../../components/ProjectCard";
 import pictureChat from "/robo-chat.png";
 import pictureHacked from "/hacked-hogwarts.png";
+import pictureAkva from "/akva.png";
 
 export { Page };
 export const documentProps = {
-  title: "Projects",
+  title: "George Nicolae-Projects",
 };
 
 function Page() {
@@ -30,20 +31,12 @@ function Page() {
           <p>Hogwarts student database build with vanilla JavaScript.</p>
         </ProjectCard>
 
-        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-          <p>Hogwarts student database build with vanilla JavaScript.</p>
-        </ProjectCard>
-
-        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-          <p>Hogwarts student database build with vanilla JavaScript.</p>
-        </ProjectCard>
-
-        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-          <p>Hogwarts student database build with vanilla JavaScript.</p>
-        </ProjectCard>
-
-        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-          <p>Hogwarts student database build with vanilla JavaScript.</p>
+        <ProjectCard
+          url="/projects/akva"
+          imgPath={pictureAkva}
+          title="Akva Jewellery"
+        >
+          <p>Exam project for a Danish startup that makes jewellery.</p>
         </ProjectCard>
       </div>
     </ProjectsContainer>
