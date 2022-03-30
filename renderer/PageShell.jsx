@@ -32,17 +32,5 @@ function PageShell({ pageContext, children }) {
 }
 
 function Content({ children }) {
-  return (
-    <main
-      style={{
-        padding: 20,
-        paddingBottom: 50,
-        borderLeft: "2px solid #eee",
-        minHeight: "100vh",
-      }}
-      id="page-content"
-    >
-      {children}
-    </main>
-  );
+  return <main id="page-content">{children}</main>;
 }

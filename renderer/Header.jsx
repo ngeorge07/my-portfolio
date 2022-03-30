@@ -7,7 +7,6 @@ function Header() {
     <header>
       <nav>
         <Logo />
-
         <ul>
           <li>
             <Link className="navitem" href="/">

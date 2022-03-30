@@ -26,7 +26,8 @@ function LoadingScreen() {
           display: "flex",
           height: "40px",
           width:
-            "calc(300px + (500 - 300) * ((100vw - 400px) / (1600 - 400)));",
+            "calc(200px + (500 - 200) * ((100vw - 190px) / (1600 - 190)));",
+          margin: "0 auto",
         }}
       >
         <div
