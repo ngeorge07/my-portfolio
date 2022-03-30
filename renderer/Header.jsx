@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "../components/Link";
 import ThemeChanger from "../components/ThemeChanger";
+import Logo from "./Logo";
 import { BsGithub } from "react-icons/bs";
 
 function Header() {
@@ -34,14 +35,6 @@ function Header() {
 
       <ThemeChanger />
     </header>
-  );
-}
-
-function Logo() {
-  return (
-    <a id="logo" href="/">
-      <h1>George Nicolae</h1>
-    </a>
   );
 }
 

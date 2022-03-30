@@ -1,6 +1,7 @@
 /* This CSS is common to all pages */
 @use "./layout/main";
 @use "./layout/header";
+@use "./layout/footer";
 @use "./base/colors";
 @use "./base/typography";
 
@@ -8,6 +9,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }
 
 button {
@@ -31,7 +36,7 @@ main {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 4rem 0;
 
   h3 {
     padding-bottom: 1rem;
@@ -60,8 +65,18 @@ a {
 
 .card-a {
   text-align: center;
+  padding: 8px 15px;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+    h4 {
+      color: var(--accent-light);
+    }
+  }
 
   h4 {
+    transition: color 0.2s ease;
     padding-top: 0.5rem;
   }
 }
@@ -144,7 +159,7 @@ a {
   }
 
   .double-side {
-    gap: 3rem;
+    gap: 2rem;
 
     div:first-of-type,
     div:nth-of-type(2) {

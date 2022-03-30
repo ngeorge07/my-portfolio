@@ -14,7 +14,6 @@ nav {
 
   ul {
     display: flex;
-    list-style: none;
     gap: 1.5rem;
   }
 
@@ -31,7 +30,7 @@ nav {
     transition: color 0.2s ease;
 
     &:hover {
-      color: var(--secondary);
+      color: var(--accent-light);
     }
   }
 }
@@ -45,7 +44,7 @@ nav {
   padding-top: 0.35rem;
 
   path {
-    fill: var(--secondary);
+    fill: var(--accent);
   }
 }
 

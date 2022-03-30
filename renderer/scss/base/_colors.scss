@@ -3,7 +3,7 @@ $primary-2: #f3f3f3;
 $secondary: #26c7bc;
 
 $accent: #b82676;
-$accent-light: #ec138a;
+$accent-light: #ec168c;
 
 $footer-header-dark-bg: #131313;
 $footer-header-light-bg: rgb(230, 230, 230);
@@ -13,6 +13,7 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --text-color: #{$primary-2};
   --secondary: #{$secondary};
   --accent: #{$accent};
+  --accent-light: #{$accent-light};
   --footer-header-bg: #{$footer-header-dark-bg};
 }
 
@@ -21,5 +22,6 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --text-color: #{$primary-1};
   --secondary: #{$accent-light};
   --accent: #{$secondary};
+  --accent-light: #{$secondary};
   --footer-header-bg: #{$footer-header-light-bg};
 }

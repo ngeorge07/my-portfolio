@@ -1,0 +1,10 @@
+footer {
+  background-color: var(--footer-header-bg);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  margin-top: 8rem;
+  padding: 3rem 5rem;
+}

@@ -4,6 +4,7 @@ import "./scss/PageShell.scss";
 import { PageContextProvider } from "./usePageContext";
 
 import Header from "./Header";
+import Footer from "./Footer";
 import LoadingScreen from "../components/LoadingScreen";
 
 export { PageShell };
@@ -22,6 +23,7 @@ function PageShell({ pageContext, children }) {
           <PageContextProvider pageContext={pageContext}>
             <Header />
             <Content>{children}</Content>
+            <Footer />
           </PageContextProvider>
         </React.StrictMode>
       ) : (

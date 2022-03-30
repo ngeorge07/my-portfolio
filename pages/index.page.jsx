@@ -55,7 +55,7 @@ function Page() {
         </TextSection>
       </section>
 
-      <section>
+      <section className="project-section">
         <h3>Project Showcase</h3>
         <div className="double-side">
           <ProjectCard url="/" imgPath={pictureChat} title="Robo Chat">
@@ -66,6 +66,10 @@ function Page() {
             <p>Hogwarts student database build with vanilla JavaScript.</p>
           </ProjectCard>
         </div>
+
+        <Link className="main-button" href="/projects">
+          See my projects
+        </Link>
       </section>
     </>
   );

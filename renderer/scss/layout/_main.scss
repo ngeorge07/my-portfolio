@@ -52,6 +52,16 @@
   border-left: 1px solid var(--secondary);
 }
 
+.project-section {
+  display: flex;
+  flex-direction: column;
+
+  .main-button {
+    margin-top: 1.5rem;
+    align-self: center;
+  }
+}
+
 @media only screen and (max-width: 620px) {
   .intro-section {
     flex-direction: column-reverse;
