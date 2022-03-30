@@ -30,7 +30,7 @@ nav {
     transition: color 0.2s ease;
 
     &:hover {
-      color: var(--accent-light);
+      color: var(--secondary);
     }
   }
 }
@@ -44,7 +44,7 @@ nav {
   padding-top: 0.35rem;
 
   path {
-    fill: var(--accent);
+    fill: var(--secondary);
   }
 }
 

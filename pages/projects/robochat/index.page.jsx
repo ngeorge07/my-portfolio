@@ -1,31 +1,30 @@
 import React from "react";
-import profilePic from "/pictureMe.jpeg";
+import TextSection from "../../../components/TextSection";
+import { Link } from "../../../components/Link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import pictureChat from "/robo-chat.png";
-import pictureHacked from "/hacked-hogwarts.png";
-
-import { Link } from "../components/Link";
-import TextSection from "../components/TextSection";
-import ProjectCard from "../components/ProjectCard";
-import ProjectsContainer from "../components/ProjectsContainer";
 
 export { Page };
+export const documentProps = {
+  title: "Robo Chat",
+};
 
 function Page() {
   return (
     <>
-      <section className="intro-section">
-        <div>
-          <h2>
-            Hi, I'm George and I am a multimedia design student specialized in{" "}
-            <span className="accent-color">front-end development.</span>
-          </h2>
-
-          <Link className="main-button" href="/projects">
-            See my projects
+      <section className="project-intro">
+        <div className="project-links">
+          <Link className="project-away-link" href="/projects">
+            Live demo
+            <FaExternalLinkAlt />
+          </Link>
+          <Link className="project-away-link" href="/projects">
+            GitHub repo
+            <FaExternalLinkAlt />
           </Link>
         </div>
 
-        <img src={profilePic} alt="" />
+        <img src={pictureChat} alt="" />
       </section>
 
       <section className="double-side-text">
@@ -55,26 +54,6 @@ function Page() {
           </p>
         </TextSection>
       </section>
-
-      <ProjectsContainer title="Project Showcase">
-        <div className="double-side">
-          <ProjectCard
-            url="/projects/robochat"
-            imgPath={pictureChat}
-            title="Robo Chat"
-          >
-            <p>Single page chat application built with React and Firebase.</p>
-          </ProjectCard>
-
-          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
-        </div>
-
-        <Link className="main-button" href="/projects">
-          See my projects
-        </Link>
-      </ProjectsContainer>
     </>
   );
 }

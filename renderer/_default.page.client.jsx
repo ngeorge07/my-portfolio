@@ -15,11 +15,11 @@ const { hydrationPromise } = useClientRouter({
     if (pageContext.isHydration) {
       setTimeout(() => {
         hydrate(page, container);
-      }, 400);
+      }, 300);
     } else {
       setTimeout(() => {
         render(page, container);
-      }, 400);
+      }, 300);
     }
     document.title = getPageTitle(pageContext);
   },

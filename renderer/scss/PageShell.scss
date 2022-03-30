@@ -49,7 +49,7 @@ a {
 }
 
 .accent-color {
-  color: var(--secondary);
+  color: var(--accent-light);
 }
 
 .progress-value {
@@ -59,7 +59,7 @@ a {
 .card-image {
   max-width: 40vw;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 0.5rem;
   width: 100%;
 }
 
@@ -71,7 +71,7 @@ a {
   &:hover {
     transform: translateY(-10px);
     h4 {
-      color: var(--accent-light);
+      color: var(--secondary);
     }
   }
 
@@ -101,13 +101,13 @@ a {
 
 // Transitions
 .page-transition-start {
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: translate(0, 20px);
   opacity: 0;
 }
 
 .page-transition-end {
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: translate(0, 0);
   opacity: 1;
 }
@@ -148,6 +148,17 @@ a {
   section {
     h3 {
       padding-bottom: 0.8rem;
+    }
+  }
+
+  .project-intro {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: -3rem;
+
+    img {
+      max-width: 100%;
     }
   }
 }

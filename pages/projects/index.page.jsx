@@ -12,34 +12,36 @@ export const documentProps = {
 
 function Page() {
   return (
-    <main>
-      <ProjectsContainer title="My projects">
-        <div className="double-side">
-          <ProjectCard url="/" imgPath={pictureChat} title="Robo Chat">
-            <p>Single page chat application built with React and Firebase.</p>
-          </ProjectCard>
+    <ProjectsContainer title="My projects">
+      <div className="double-side">
+        <ProjectCard
+          url="/projects/robochat"
+          imgPath={pictureChat}
+          title="Robo Chat"
+        >
+          <p>Single page chat application built with React and Firebase.</p>
+        </ProjectCard>
 
-          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
+        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+          <p>Hogwarts student database build with vanilla JavaScript.</p>
+        </ProjectCard>
 
-          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
+        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+          <p>Hogwarts student database build with vanilla JavaScript.</p>
+        </ProjectCard>
 
-          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
+        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+          <p>Hogwarts student database build with vanilla JavaScript.</p>
+        </ProjectCard>
 
-          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
+        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+          <p>Hogwarts student database build with vanilla JavaScript.</p>
+        </ProjectCard>
 
-          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
-        </div>
-      </ProjectsContainer>
-    </main>
+        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+          <p>Hogwarts student database build with vanilla JavaScript.</p>
+        </ProjectCard>
+      </div>
+    </ProjectsContainer>
   );
 }
