@@ -1,7 +1,11 @@
 import React from "react";
 import profilePic from "/pictureMe.jpeg";
+import pictureChat from "/robo-chat.png";
+import pictureHacked from "/hacked-hogwarts.png";
+
 import { Link } from "../components/Link";
 import TextSection from "../components/TextSection";
+import ProjectCard from "../components/ProjectCard";
 
 export { Page };
 
@@ -52,17 +56,16 @@ function Page() {
       </section>
 
       <section>
-        <TextSection title="Project showcase">
-          <p>
-            For the past year I've build projects using HTML, CSS and
-            JavaScript. After I felt more than comfortable working with vanilla
-            CSS and Js I went further and thought myself how to work more
-            efficiently using <span className="accent-color"> SASS</span> and
-            <span className="accent-color"> React</span>. I would like to work
-            using React or any JS
-            <span className="accent-color"> framework</span>.
-          </p>
-        </TextSection>
+        <h3>Project Showcase</h3>
+        <div className="double-side">
+          <ProjectCard url="/" imgPath={pictureChat} title="Robo Chat">
+            <p>Single page chat application built with React and Firebase.</p>
+          </ProjectCard>
+
+          <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+            <p>Hogwarts student database build with vanilla JavaScript.</p>
+          </ProjectCard>
+        </div>
       </section>
     </>
   );

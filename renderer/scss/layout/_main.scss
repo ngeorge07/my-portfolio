@@ -38,10 +38,7 @@
 .double-side {
   display: flex;
   gap: 1.5rem;
-
-  h3 {
-    padding-bottom: 1rem;
-  }
+  justify-content: space-evenly;
 
   div:first-of-type {
     width: 45%;

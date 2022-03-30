@@ -32,6 +32,10 @@ main {
 
 section {
   padding: 3rem 0;
+
+  h3 {
+    padding-bottom: 1rem;
+  }
 }
 
 a {
@@ -45,6 +49,21 @@ a {
 
 .progress-value {
   animation: load 3s normal forwards;
+}
+
+.card-image {
+  max-width: 40vw;
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card-a {
+  text-align: center;
+
+  h4 {
+    padding-top: 0.5rem;
+  }
 }
 
 @keyframes load {
@@ -76,4 +95,84 @@ a {
   transition: all 0.4s ease-in-out;
   transform: translate(0, 0);
   opacity: 1;
+}
+
+@media only screen and (max-width: 730px) {
+  nav {
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+
+  .vertical-line {
+    border-bottom: 1px solid var(--secondary);
+  }
+
+  .double-side {
+    flex-direction: column;
+    gap: 2rem;
+
+    div:first-of-type {
+      width: 90%;
+    }
+
+    div:nth-of-type(2) {
+      width: 90%;
+    }
+  }
+
+  .card-image {
+    max-width: 60%;
+  }
+
+  section {
+    h3 {
+      padding-bottom: 0.8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+
+    a {
+      font-size: 0.95rem;
+    }
+  }
+
+  .double-side {
+    gap: 3rem;
+
+    div:first-of-type,
+    div:nth-of-type(2) {
+      width: 100%;
+    }
+  }
+
+  .card-image {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  #change-theme {
+    width: 2rem;
+  }
+
+  nav {
+    li:last-of-type {
+      a {
+        gap: 0px;
+      }
+    }
+  }
 }
