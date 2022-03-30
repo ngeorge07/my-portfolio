@@ -8,7 +8,9 @@ $accent: #b82676;
 $accent-light: #ec168c;
 
 $away-light-bg: #f8d3e7;
-$away-dark-bg: #e6fffa;
+$away-dark-bg: #aceee0;
+
+$main-button-bg: #73d6d0;
 
 $footer-header-dark-bg: #131313;
 $footer-header-light-bg: rgb(230, 230, 230);
@@ -20,6 +22,7 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --accent: #{$accent};
   --accent-light: #{$accent-light};
   --away-link-bg: #{$away-dark-bg};
+  --main-button-bg: #{$main-button-bg};
   --footer-header-bg: #{$footer-header-dark-bg};
 }
 

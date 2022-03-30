@@ -7,4 +7,23 @@ footer {
 
   margin-top: 8rem;
   padding: 3rem 5rem;
+  ul {
+    a {
+      display: inline-flex;
+      gap: 0.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      height: 2.5rem;
+      padding: 0 1rem;
+      border-radius: 0.35rem;
+      color: var(--secondary);
+      transition: background-color 0.3s ease-in-out;
+      width: fit-content;
+
+      &:hover {
+        background-color: rgba(129, 230, 217, 0.12);
+      }
+    }
+  }
 }
