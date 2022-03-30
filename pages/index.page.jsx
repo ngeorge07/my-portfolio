@@ -23,16 +23,47 @@ function Page() {
         <img src={profilePic} alt="" />
       </section>
 
-      <TextSection title="Who am I?">
-        <p>
-          During this theme I sharpened my CSS skills and got introduced to
-          landing pages, color theory and animations using GSAP. During this
-          theme we were tasked with creating this landing page using the skills
-          learned by completing smaller projects. Personally, the colors
-          assignment was the most useful because I struggle with choosing a
-          color pallette and the 60-30-10 rule gave me some structure.
-        </p>
-      </TextSection>
+      <section className="double-side">
+        <TextSection title="My skills">
+          <p>
+            For the past year I've build projects using HTML, CSS and
+            JavaScript. After I felt more than comfortable working with vanilla
+            CSS and Js I went further and thought myself how to work more
+            efficiently using <span className="accent-color"> SASS</span> and
+            <span className="accent-color"> React</span>. I would like to work
+            using React or any JS
+            <span className="accent-color"> framework</span>.
+          </p>
+        </TextSection>
+        <span className="vertical-line"></span>
+        <TextSection title="My process">
+          <p>
+            In time, I made my own strategy of debugging to
+            <span className="accent-color"> maximize</span> the learning
+            process. I start by googling the error to see what's causing it. If
+            it's a syntax error I search it on
+            <span className="accent-color"> MDN</span> and read the
+            documentation. If it's something else I would keep looking for
+            answers online for one hour. If I cant't find a solution I would ask
+            a teacher. With this approach, even if I don't solve an issue I
+            still learn new valuable information.
+          </p>
+        </TextSection>
+      </section>
+
+      <section>
+        <TextSection title="Project showcase">
+          <p>
+            For the past year I've build projects using HTML, CSS and
+            JavaScript. After I felt more than comfortable working with vanilla
+            CSS and Js I went further and thought myself how to work more
+            efficiently using <span className="accent-color"> SASS</span> and
+            <span className="accent-color"> React</span>. I would like to work
+            using React or any JS
+            <span className="accent-color"> framework</span>.
+          </p>
+        </TextSection>
+      </section>
     </>
   );
 }

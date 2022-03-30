@@ -35,6 +35,26 @@
   width: fit-content;
 }
 
+.double-side {
+  display: flex;
+  gap: 1.5rem;
+
+  h3 {
+    padding-bottom: 1rem;
+  }
+
+  div:first-of-type {
+    width: 45%;
+  }
+  div:nth-of-type(2) {
+    width: 55%;
+  }
+}
+
+.vertical-line {
+  border-left: 1px solid var(--secondary);
+}
+
 @media only screen and (max-width: 620px) {
   .intro-section {
     flex-direction: column-reverse;

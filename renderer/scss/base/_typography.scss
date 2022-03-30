@@ -13,6 +13,7 @@ p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: var(--primary-2);
+  font-size: calc(15px + (18 - 15) * ((100vw - 360px) / (1600 - 360)));
 }
 
 a {
@@ -42,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h4 {
