@@ -2,7 +2,7 @@ import React from "react";
 import TextSection from "../../../components/TextSection";
 import { Link } from "../../../components/Link";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import pictureChat from "/robo-chat.png";
+import pictureHacked from "/hacked-hogwarts.png";
 
 export { Page };
 export const documentProps = {
@@ -32,10 +32,9 @@ function Page() {
           </Link>
         </div>
 
-        <img src={pictureChat} alt="" />
+        <img src={pictureHacked} alt="" />
       </section>
 
-      <h2 className="project-title">Robo Chat</h2>
       <section className="double-side-text">
         <TextSection title="Tech stack">
           <p>
