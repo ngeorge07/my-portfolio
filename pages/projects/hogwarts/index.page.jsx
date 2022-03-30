@@ -20,10 +20,9 @@ function Page() {
     <IndividualProject {...props}>
       <TextSection title="Tech stack">
         <p>
-          For the past year I've build projects using HTML, CSS and JavaScript.
-          After I felt more than comfortable working with vanilla CSS and Js I
-          went further and thought myself how to work more efficiently using
-          SASS and React. I would like to work using React or any JS framework.
+          This was a school project we were required to do only with vanilla
+          JavaScript and CSS. I included this project as a showcase because it
+          demonstrates my proficiency in JavaScript.
         </p>
       </TextSection>
 
@@ -31,13 +30,13 @@ function Page() {
 
       <TextSection title="About">
         <p>
-          In time, I made my own strategy of debugging to maximize the learning
-          process. I start by googling the error to see what's causing it. If
-          it's a syntax error I search it on MDN and read the documentation. If
-          it's something else I would keep looking for answers online for one
-          hour. If I cant't find a solution I would ask a teacher. With this
-          approach, even if I don't solve an issue I still learn new valuable
-          information.
+          We were given a JSON with information about Harry Potter characters.
+          The data was minimal, we were only given their full name, gender and
+          house. I had to "clean" the data by splitting the full name. I fetched
+          their blood status (pure, semi blood etc.) from a different JSON. In
+          the live demo you can search a certain student, expel them, assign
+          prefect or inquisitorials, and if you click the "Slytherin" symbol
+          three times the system will be "hacked".
         </p>
       </TextSection>
     </IndividualProject>

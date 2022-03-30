@@ -21,10 +21,9 @@ function Page() {
     <IndividualProject {...props}>
       <TextSection title="Tech stack">
         <p>
-          For the past year I've build projects using HTML, CSS and JavaScript.
-          After I felt more than comfortable working with vanilla CSS and Js I
-          went further and thought myself how to work more efficiently using
-          SASS and React. I would like to work using React or any JS framework.
+          In this project I used React and Firebase. I wrote the Firebase
+          initialization as a function in JS. The styling was done with SASS and
+          I used Vite as the build tool.
         </p>
       </TextSection>
 
@@ -32,13 +31,13 @@ function Page() {
 
       <TextSection title="About">
         <p>
-          In time, I made my own strategy of debugging to maximize the learning
-          process. I start by googling the error to see what's causing it. If
-          it's a syntax error I search it on MDN and read the documentation. If
-          it's something else I would keep looking for answers online for one
-          hour. If I cant't find a solution I would ask a teacher. With this
-          approach, even if I don't solve an issue I still learn new valuable
-          information.
+          This was a personal project. I've been looking into making a CRUD app
+          for a while and I saw this <a href="#">tutorial</a> that gave me a
+          good starting point. I implemented a way fo loged in user to delete
+          their sent messages. Also, each user can up or down vote any message
+          thus updating the Firestore database. The UI will update and the UID
+          of that user will be added in an array for that message to show that
+          they already voted on that specific message.
         </p>
       </TextSection>
     </IndividualProject>

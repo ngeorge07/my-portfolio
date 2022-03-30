@@ -20,10 +20,10 @@ function Page() {
     <IndividualProject {...props}>
       <TextSection title="Tech stack">
         <p>
-          For the past year I've build projects using HTML, CSS and JavaScript.
-          After I felt more than comfortable working with vanilla CSS and Js I
-          went further and thought myself how to work more efficiently using
-          SASS and React. I would like to work using React or any JS framework.
+          This project was done with vanilla JavaScript and CSS. I used the
+          vanillajs-datepicker library in order to get a functional calendar
+          input for the appointment form. I used the Basin API in order to store
+          the appointment information and update the available dates and hours.
         </p>
       </TextSection>
 
@@ -31,13 +31,14 @@ function Page() {
 
       <TextSection title="About">
         <p>
-          In time, I made my own strategy of debugging to maximize the learning
-          process. I start by googling the error to see what's causing it. If
-          it's a syntax error I search it on MDN and read the documentation. If
-          it's something else I would keep looking for answers online for one
-          hour. If I cant't find a solution I would ask a teacher. With this
-          approach, even if I don't solve an issue I still learn new valuable
-          information.
+          This is the exam project from my second semester. I learned how to
+          work with GitHub branches since one of my colleagues did the code for
+          the header and the "consciousness" page. I built a functional
+          appointment form that will send data to the Basin API when completed.
+          At the same time, it receives the times and dates that are already
+          occupied and removes them as an option on the client's side. For this
+          project I also used dynamic fetching in order to filter Akva's
+          products.
         </p>
       </TextSection>
     </IndividualProject>
