@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "../components/Link";
 import ThemeChanger from "../components/ThemeChanger";
+import { BsGithub } from "react-icons/bs";
 
 function Header() {
   return (
@@ -19,9 +20,14 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link className="navitem" href="/contact">
-              Contact
-            </Link>
+            <a
+              className="navitem"
+              target="_blank"
+              href="https://github.com/ngeorge07/my-portfolio"
+            >
+              <BsGithub />
+              Source
+            </a>
           </li>
         </ul>
       </nav>

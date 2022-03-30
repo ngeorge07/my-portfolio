@@ -5,9 +5,9 @@
 @use "./base/typography";
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 button {
@@ -28,6 +28,10 @@ body {
 main {
   max-width: 87%;
   margin: auto;
+}
+
+section {
+  padding: 3rem 0;
 }
 
 a {

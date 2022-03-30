@@ -18,6 +18,15 @@ nav {
     gap: 1.5rem;
   }
 
+  li:last-of-type {
+    a {
+      align-items: center;
+      display: flex;
+      padding: 0;
+      gap: 5px;
+    }
+  }
+
   a {
     transition: color 0.2s ease;
 
@@ -31,8 +40,9 @@ nav {
   width: fit-content;
 }
 
-svg {
+#change-theme {
   width: 2.5rem;
+  padding-top: 0.35rem;
 
   path {
     fill: var(--secondary);
@@ -66,12 +76,22 @@ svg {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 315px) {
   header {
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.5rem;
+    align-items: flex-start;
   }
-  svg {
+
+  #change-theme {
     width: 2rem;
+  }
+
+  nav {
+    li:last-of-type {
+      a {
+        gap: 0px;
+      }
+    }
   }
 }

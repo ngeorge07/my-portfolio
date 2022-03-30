@@ -23,6 +23,7 @@ function ThemeChanger() {
   return (
     <button onClick={() => setThemeState(!themeState)}>
       <svg
+        id="change-theme"
         version="1.1"
         viewBox="0 0 700 580"
         xmlns="http://www.w3.org/2000/svg"
