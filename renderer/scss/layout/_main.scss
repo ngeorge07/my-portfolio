@@ -1,0 +1,52 @@
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 3rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  img {
+    max-width: 30vw;
+    max-height: 30vw;
+    // max-width: 100%;
+    width: 100%;
+    min-width: 12rem;
+    min-height: 12rem;
+    object-fit: cover;
+    border-radius: 9999px;
+  }
+}
+
+.main-button {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.375rem;
+  background-color: var(--accent);
+  color: var(--primary-2);
+  transition: color 0.2s ease;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 620px) {
+  .intro-section {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .main-button {
+    align-self: center;
+  }
+}

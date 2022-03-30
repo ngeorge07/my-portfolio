@@ -1,4 +1,5 @@
 /* This CSS is common to all pages */
+@use "./layout/main";
 @use "./layout/header";
 @use "./base/colors";
 @use "./base/typography";
@@ -24,9 +25,18 @@ body {
   color: var(--text-color);
 }
 
+main {
+  max-width: 87%;
+  margin: auto;
+}
+
 a {
   text-decoration: none;
   color: var(--primary-2);
+}
+
+.accent-color {
+  color: var(--secondary);
 }
 
 .progress-value {

@@ -25,8 +25,7 @@ function LoadingScreen() {
           padding: "0 5px",
           display: "flex",
           height: "40px",
-          width:
-            "calc(200px + (500 - 200) * ((100vw - 190px) / (1600 - 190)));",
+          width: "calc(200px + (500 - 200) * ((100vw - 190px) / (1600 - 190)))",
           margin: "0 auto",
         }}
       >
