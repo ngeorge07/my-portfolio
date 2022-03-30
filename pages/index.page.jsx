@@ -31,11 +31,11 @@ function Page() {
       <section className="double-side-text">
         <TextSection title="My skills">
           <p>
-            For the past year I've build projects using HTML, CSS and
-            JavaScript. After I felt more than comfortable working with vanilla
-            CSS and Js I went further and thought myself how to work more
-            efficiently using SASS and React. I would like to work using React
-            or any JS framework.
+            For the past year I have built several projects using HTML, CSS, as
+            well as JavaScript. After I started feeling comfortable working with
+            vanilla CSS and Js, I focused on further improving my skills by
+            teaching myself to work more efficiently using SASS and React. I am
+            looking forward to working using React or any JS framework.
           </p>
         </TextSection>
         <span className="vertical-line"></span>
