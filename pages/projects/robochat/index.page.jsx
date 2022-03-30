@@ -14,11 +14,19 @@ function Page() {
     <>
       <section className="project-intro">
         <div className="project-links">
-          <Link className="project-away-link" href="/projects">
+          <Link
+            className="project-away-link"
+            href="https://robo-chat.netlify.app/"
+            target="_blank"
+          >
             Live demo
             <FaExternalLinkAlt />
           </Link>
-          <Link className="project-away-link" href="/projects">
+          <Link
+            className="project-away-link"
+            href="https://github.com/ngeorge07/chatty-app"
+            target="_blank"
+          >
             GitHub repo
             <FaExternalLinkAlt />
           </Link>
@@ -28,7 +36,7 @@ function Page() {
       </section>
 
       <section className="double-side-text">
-        <TextSection title="My skills">
+        <TextSection title="Tech stack">
           <p>
             For the past year I've build projects using HTML, CSS and
             JavaScript. After I felt more than comfortable working with vanilla
@@ -40,7 +48,7 @@ function Page() {
           </p>
         </TextSection>
         <span className="vertical-line"></span>
-        <TextSection title="My process">
+        <TextSection title="About">
           <p>
             In time, I made my own strategy of debugging to
             <span className="accent-color"> maximize</span> the learning

@@ -7,6 +7,9 @@ $secondary-darker: #1abeb4;
 $accent: #b82676;
 $accent-light: #ec168c;
 
+$away-light-bg: #f8d3e7;
+$away-dark-bg: #e6fffa;
+
 $footer-header-dark-bg: #131313;
 $footer-header-light-bg: rgb(230, 230, 230);
 
@@ -16,6 +19,7 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --secondary: #{$secondary};
   --accent: #{$accent};
   --accent-light: #{$accent-light};
+  --away-link-bg: #{$away-dark-bg};
   --footer-header-bg: #{$footer-header-dark-bg};
 }
 
@@ -25,5 +29,6 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --secondary: #{$accent-light};
   --accent: #{$secondary};
   --accent-light: #{$secondary-darker};
+  --away-link-bg: #{$away-light-bg};
   --footer-header-bg: #{$footer-header-light-bg};
 }
