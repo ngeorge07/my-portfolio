@@ -22,7 +22,11 @@ function Page() {
           <p>Single page chat application built with React and Firebase.</p>
         </ProjectCard>
 
-        <ProjectCard url="/" imgPath={pictureHacked} title="Hacked Hogwarts">
+        <ProjectCard
+          url="/projects/hogwarts"
+          imgPath={pictureHacked}
+          title="Hacked Hogwarts"
+        >
           <p>Hogwarts student database build with vanilla JavaScript.</p>
         </ProjectCard>
 

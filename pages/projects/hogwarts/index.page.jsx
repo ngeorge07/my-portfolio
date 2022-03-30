@@ -16,7 +16,7 @@ function Page() {
         <div className="project-links">
           <Link
             className="project-away-link"
-            href="https://robo-chat.netlify.app/"
+            href="https://hacked-hogwarts.netlify.app/"
             target="_blank"
           >
             Live demo
@@ -24,7 +24,7 @@ function Page() {
           </Link>
           <Link
             className="project-away-link"
-            href="https://github.com/ngeorge07/chatty-app"
+            href="https://github.com/ngeorge07/hacked-hogwarts"
             target="_blank"
           >
             GitHub repo
@@ -34,6 +34,8 @@ function Page() {
 
         <img src={pictureHacked} alt="" />
       </section>
+
+      <h2 className="project-title">Hacked Hogwarts</h2>
 
       <section className="double-side-text">
         <TextSection title="Tech stack">
