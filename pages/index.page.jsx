@@ -6,6 +6,7 @@ import pictureHacked from "/hacked-hogwarts.png";
 import { Link } from "../components/Link";
 import TextSection from "../components/TextSection";
 import ProjectCard from "../components/ProjectCard";
+import ProjectsContainer from "../components/ProjectsContainer";
 
 export { Page };
 
@@ -27,7 +28,7 @@ function Page() {
         <img src={profilePic} alt="" />
       </section>
 
-      <section className="double-side">
+      <section className="double-side-text">
         <TextSection title="My skills">
           <p>
             For the past year I've build projects using HTML, CSS and
@@ -55,8 +56,7 @@ function Page() {
         </TextSection>
       </section>
 
-      <section className="project-section">
-        <h3>Project Showcase</h3>
+      <ProjectsContainer title="Project Showcase">
         <div className="double-side">
           <ProjectCard url="/" imgPath={pictureChat} title="Robo Chat">
             <p>Single page chat application built with React and Firebase.</p>
@@ -70,7 +70,7 @@ function Page() {
         <Link className="main-button" href="/projects">
           See my projects
         </Link>
-      </section>
+      </ProjectsContainer>
     </>
   );
 }

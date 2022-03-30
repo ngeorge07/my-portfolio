@@ -124,6 +124,11 @@ a {
   }
 
   .double-side {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .double-side-text {
     flex-direction: column;
     gap: 2rem;
 
@@ -158,9 +163,12 @@ a {
     }
   }
 
-  .double-side {
+  .double-side,
+  .double-side-text {
     gap: 2rem;
+  }
 
+  .double-side-text {
     div:first-of-type,
     div:nth-of-type(2) {
       width: 100%;

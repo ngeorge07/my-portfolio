@@ -36,9 +36,15 @@
 }
 
 .double-side {
-  display: flex;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 3rem;
   justify-content: space-evenly;
+}
+
+.double-side-text {
+  display: flex;
 
   div:first-of-type {
     width: 45%;
@@ -46,6 +52,9 @@
   div:nth-of-type(2) {
     width: 55%;
   }
+
+  gap: 1.5rem;
+  justify-content: space-evenly;
 }
 
 .vertical-line {
