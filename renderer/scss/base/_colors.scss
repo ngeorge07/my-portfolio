@@ -11,6 +11,10 @@ $away-light-bg: #f8d3e7;
 $away-dark-bg: #aceee0;
 
 $main-button-bg: #73d6d0;
+$main-button-light-bg: #ec44a0;
+
+$contact-link-dark: rgba(129, 230, 217, 0.12);
+$contact-link-light: #ffb6dfa1;
 
 $footer-header-dark-bg: #131313;
 $footer-header-light-bg: rgb(230, 230, 230);
@@ -24,6 +28,7 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --away-link-bg: #{$away-dark-bg};
   --main-button-bg: #{$main-button-bg};
   --footer-header-bg: #{$footer-header-dark-bg};
+  --contact-link-bg: #{$contact-link-dark};
 }
 
 :root[data-theme="light"] {
@@ -33,5 +38,7 @@ $footer-header-light-bg: rgb(230, 230, 230);
   --accent: #{$secondary};
   --accent-light: #{$secondary-darker};
   --away-link-bg: #{$away-light-bg};
+  --main-button-bg: #{$main-button-light-bg};
   --footer-header-bg: #{$footer-header-light-bg};
+  --contact-link-bg: #{$contact-link-light};
 }

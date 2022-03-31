@@ -33,14 +33,17 @@ nav {
   a {
     transition: color 0.2s ease;
 
-    &:hover {
-      color: var(--secondary);
+    @media (hover: hover) {
+      &:hover {
+        color: var(--secondary);
+      }
     }
   }
 }
 
 #logo {
   width: fit-content;
+  height: fit-content;
 }
 
 #change-theme {

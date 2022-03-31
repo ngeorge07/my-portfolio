@@ -42,6 +42,7 @@
 .project-away-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   height: 2.5rem;
   padding: 0 1rem;
@@ -49,7 +50,6 @@
   border-radius: 0.35rem;
   color: var(--secondary);
   transition: background-color 0.2s ease-in-out;
-  width: fit-content;
 
   &:hover {
     background-color: var(--away-link-bg);

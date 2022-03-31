@@ -22,7 +22,7 @@ footer {
       width: fit-content;
 
       &:hover {
-        background-color: rgba(129, 230, 217, 0.12);
+        background-color: var(--contact-link-bg);
       }
     }
   }
