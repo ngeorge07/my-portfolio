@@ -51,8 +51,10 @@
   color: var(--secondary);
   transition: background-color 0.2s ease-in-out;
 
-  &:hover {
-    background-color: var(--away-link-bg);
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--away-link-bg);
+    }
   }
 }
 
