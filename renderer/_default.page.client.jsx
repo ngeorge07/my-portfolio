@@ -39,6 +39,10 @@ function onTransitionStart() {
   document
     .querySelector("#page-content")
     .classList.remove("page-transition-end");
+
+  document.querySelector("footer").classList.add("page-transition-start");
+
+  document.querySelector("footer").classList.remove("page-transition-end");
 }
 function onTransitionEnd() {
   setTimeout(() => {
@@ -49,6 +53,11 @@ function onTransitionEnd() {
     document
       .querySelector("#page-content")
       .classList.add("page-transition-end");
+
+    document.querySelector("footer").classList.remove("page-transition-start");
+
+    document.querySelector("footer").classList.add("page-transition-end");
+    window.scrollTo({ top: 0 });
   }, 400);
 }
 

@@ -4,6 +4,10 @@ header {
   justify-content: space-between;
   gap: 1.5rem;
   padding: 1.2rem 6.5% 1rem 6.5%;
+
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 nav {

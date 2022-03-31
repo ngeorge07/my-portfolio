@@ -11,5 +11,5 @@ function Link(props) {
   ]
     .filter(Boolean)
     .join(" ");
-  return <a {...props} className={className} />;
+  return <a {...props} className={className} keep-scroll-position="" />;
 }
