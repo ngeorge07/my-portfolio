@@ -2,7 +2,7 @@ import React from "react";
 import TextSection from "../../../components/TextSection";
 import IndividualProject from "../../../components/IndividualProject";
 
-import picture from "/robo-chat.png";
+import picture from "/robo-chat.webp";
 
 export { Page };
 export const documentProps = {

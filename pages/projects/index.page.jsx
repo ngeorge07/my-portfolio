@@ -2,11 +2,11 @@ import React from "react";
 
 import ProjectsContainer from "../../components/ProjectsContainer";
 import ProjectCard from "../../components/ProjectCard";
-import pictureChat from "/robo-chat.png";
-import pictureHacked from "/hacked-hogwarts.png";
-import pictureAkva from "/akva.png";
-import pictureSilfen from "/silfen.png";
-import pictureLouisiana from "/louisiana.png";
+import pictureChat from "/robo-chat.webp";
+import pictureHacked from "/hacked-hogwarts.webp";
+import pictureAkva from "/akva.webp";
+import pictureSilfen from "/silfen.webp";
+import pictureLouisiana from "/louisiana.webp";
 
 export { Page };
 export const documentProps = {

@@ -1,6 +1,6 @@
 import React from "react";
 import TextSection from "../../../components/TextSection";
-import picture from "/hacked-hogwarts.png";
+import picture from "/hacked-hogwarts.webp";
 import IndividualProject from "../../../components/IndividualProject";
 
 export { Page };

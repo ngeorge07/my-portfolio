@@ -1,6 +1,6 @@
 import React from "react";
 import TextSection from "../../../components/TextSection";
-import picture from "/akva.png";
+import picture from "/akva.webp";
 import IndividualProject from "../../../components/IndividualProject";
 
 export { Page };

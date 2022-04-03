@@ -2,7 +2,7 @@ import React from "react";
 import TextSection from "../../../components/TextSection";
 import IndividualProject from "../../../components/IndividualProject";
 
-import picture from "/louisiana.png";
+import picture from "/louisiana.webp";
 
 export { Page };
 export const documentProps = {

@@ -1,7 +1,7 @@
 import React from "react";
-import profilePic from "/pictureMe.jpeg";
-import pictureChat from "/robo-chat.png";
-import pictureHacked from "/hacked-hogwarts.png";
+import profilePic from "/pictureMe.webp";
+import pictureChat from "/robo-chat.webp";
+import pictureHacked from "/hacked-hogwarts.webp";
 
 import { Link } from "../components/Link";
 import TextSection from "../components/TextSection";
