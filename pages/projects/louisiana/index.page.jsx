@@ -20,18 +20,14 @@ function Page() {
   return (
     <IndividualProject {...props}>
       <TextSection title="Tech stack">
-        <p>
-          This project was built with vanilla JavaScript and SASS. I used RestDB
-          to store and fetch data and the Barba library to create animations
-          between pages.
-        </p>
+        This project was built with vanilla JavaScript and SASS. I used RestDB
+        to store and fetch data and the Barba library to create animations
+        between pages.
       </TextSection>
 
       <span className="vertical-line"></span>
 
-      <TextSection title="About">
-        <p>Coming soon...</p>
-      </TextSection>
+      <TextSection title="About"></TextSection>
     </IndividualProject>
   );
 }

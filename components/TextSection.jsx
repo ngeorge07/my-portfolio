@@ -4,7 +4,8 @@ function TextSection({ children, title }) {
   return (
     <div>
       <h3>{title}</h3>
-      {children}
+
+      <p>{children}</p>
     </div>
   );
 }

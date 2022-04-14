@@ -30,25 +30,21 @@ function Page() {
 
       <section className="double-side-text">
         <TextSection title="My skills">
-          <p>
-            For the past year I have built several projects using HTML, CSS, as
-            well as JavaScript. After I started feeling comfortable working with
-            vanilla CSS and Js, I focused on further improving my skills by
-            teaching myself to work more efficiently using SASS and React. I am
-            looking forward to working using React or any JS framework.
-          </p>
+          For the past year I have built several projects using HTML, CSS, as
+          well as JavaScript. After I started feeling comfortable working with
+          vanilla CSS and Js, I focused on further improving my skills by
+          teaching myself to work more efficiently using SASS and React. I am
+          looking forward to working using React or any JS framework.
         </TextSection>
         <span className="vertical-line"></span>
         <TextSection title="My process">
-          <p>
-            In time, I made my own strategy of debugging to maximize the
-            learning process. I start by googling the error to see what's
-            causing it. If it's a syntax error I search it on MDN and read the
-            documentation. If it's something else I would keep looking for
-            answers online for one hour. If I cant't find a solution I would ask
-            a teacher. With this approach, even if I don't solve an issue I
-            still learn new valuable information.
-          </p>
+          In time, I made my own strategy of debugging to maximize the learning
+          process. I start by googling the error to see what's causing it. If
+          it's a syntax error I search it on MDN and read the documentation. If
+          it's something else I would keep looking for answers online for one
+          hour. If I cant't find a solution I would ask a teacher. With this
+          approach, even if I don't solve an issue I still learn new valuable
+          information.
         </TextSection>
       </section>
 

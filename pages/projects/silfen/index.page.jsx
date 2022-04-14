@@ -19,15 +19,11 @@ function Page() {
 
   return (
     <IndividualProject {...props}>
-      <TextSection title="Tech stack">
-        <p>Coming soon...</p>
-      </TextSection>
+      <TextSection title="Tech stack">Coming soon...</TextSection>
 
       <span className="vertical-line"></span>
 
-      <TextSection title="About">
-        <p>Coming soon...</p>
-      </TextSection>
+      <TextSection title="About">Coming soon...</TextSection>
     </IndividualProject>
   );
 }
