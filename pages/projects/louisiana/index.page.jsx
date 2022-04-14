@@ -27,7 +27,11 @@ function Page() {
 
       <span className="vertical-line"></span>
 
-      <TextSection title="About"></TextSection>
+      <TextSection title="About">
+        The Louisiana Art Museum asked for a digital solution to display their
+        artworks. I used Barba.js to create a sliding animation between pages to
+        make the user feel like they are walking from one room into another.
+      </TextSection>
     </IndividualProject>
   );
 }

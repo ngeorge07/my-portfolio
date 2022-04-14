@@ -19,11 +19,17 @@ function Page() {
 
   return (
     <IndividualProject {...props}>
-      <TextSection title="Tech stack">Coming soon...</TextSection>
+      <TextSection title="Tech stack">
+        For this website I used the Pods WordPress REST API to fetch data about
+        products and made a dynamic product page based on each item's ID.
+      </TextSection>
 
       <span className="vertical-line"></span>
 
-      <TextSection title="About">Coming soon...</TextSection>
+      <TextSection title="About">
+        SILFEN Studios wanted us to make a new website for the launch of their
+        new launch.{" "}
+      </TextSection>
     </IndividualProject>
   );
 }
