@@ -21,7 +21,7 @@ function Page() {
           </h2>
 
           <Link className="main-button" href="/projects">
-            See my projects
+            See all my projects
           </Link>
         </div>
 
@@ -68,7 +68,7 @@ function Page() {
         </div>
 
         <Link className="main-button" href="/projects">
-          See my projects
+          See all my projects
         </Link>
       </ProjectsContainer>
     </>

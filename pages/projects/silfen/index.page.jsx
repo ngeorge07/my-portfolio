@@ -28,7 +28,7 @@ function Page() {
 
       <TextSection title="About">
         SILFEN Studios wanted us to make a new website for the launch of their
-        new launch.{" "}
+        new launch.
       </TextSection>
     </IndividualProject>
   );
