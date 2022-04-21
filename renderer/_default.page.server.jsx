@@ -20,8 +20,7 @@ async function render(pageContext) {
   const title =
     (documentProps && documentProps.title) || "George Nicolae Portfolio";
   const desc =
-    (documentProps && documentProps.description) ||
-    "App using Vite + vite-plugin-ssr";
+    (documentProps && documentProps.description) || "George Nicolae Portfolio";
 
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html lang="en">
