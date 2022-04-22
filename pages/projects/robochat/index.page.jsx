@@ -30,7 +30,7 @@ function Page() {
       <TextSection title="About">
         This was a personal project. I've been looking into making a CRUD app
         for a while and I saw this <a href="#">tutorial</a> that gave me a good
-        starting point. I implemented a way fo loged in user to delete their
+        starting point. I implemented a way for logged in users to delete their
         sent messages. Also, each user can up or down vote any message thus
         updating the Firestore database. The UI will update and the UID of that
         user will be added in an array for that message to show that they

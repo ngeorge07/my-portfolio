@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "url": "/projects/robochat",
+    "imgPath": "/robo-chat.webp",
+    "title": "Robo Chat",
+    "text": "Single page chat application built with React and Firebase"
+  },
+  {
+    "id": 1,
+    "url": "/projects/hogwarts",
+    "imgPath": "/hacked-hogwarts.webp",
+    "title": "Hacked Hogwarts",
+    "text": "Hogwarts student database build with vanilla JavaScript"
+  },
+  {
+    "id": 2,
+    "url": "/projects/akva",
+    "imgPath": "/akva.webp",
+    "title": "Akva Jewellery",
+    "text": "Exam project for a Danish startup that makes jewellery"
+  },
+  {
+    "id": 3,
+    "url": "/projects/silfen",
+    "imgPath": "/silfen.webp",
+    "title": "Silfen Bags",
+    "text": "Reimagined website for the launch of a new campaign for a Silfen Studios"
+  },
+  {
+    "id": 4,
+    "url": "/projects/louisiana",
+    "imgPath": "/louisiana.webp",
+    "title": "Louisiana Museum",
+    "text": "A new way to explore Louisiana's art collection"
+  }
+]
