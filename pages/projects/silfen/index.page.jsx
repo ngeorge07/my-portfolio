@@ -1,4 +1,3 @@
-import React from "react";
 import TextSection from "../../../components/TextSection";
 import IndividualProject from "../../../components/IndividualProject";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "/pictureMe.webp";
-import pictureChat from "/robo-chat.webp";
+import pictureSplitter from "/splitter.webp";
 import pictureHacked from "/hacked-hogwarts.webp";
 
 import { Link } from "../components/Link";
@@ -51,11 +51,14 @@ function Page() {
       <ProjectsContainer title="Project Showcase">
         <div className="double-side">
           <ProjectCard
-            url="/projects/robochat"
-            imgPath={pictureChat}
-            title="Robo Chat"
+            url="/projects/splitter"
+            imgPath={pictureSplitter}
+            title="Tip Calculator App"
           >
-            <p>Single page chat application built with React and Firebase.</p>
+            <p>
+              A calculator that helps you split the bill and calculate the tip.
+              Made with React + Tailwind and built with Vite.
+            </p>
           </ProjectCard>
 
           <ProjectCard
