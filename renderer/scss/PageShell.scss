@@ -125,7 +125,7 @@ a {
   }
 
   .vertical-line {
-    border-bottom: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--accent);
   }
 
   .double-side {
@@ -201,6 +201,10 @@ a {
 
   .card-image {
     max-width: 100%;
+  }
+
+  .skills-section {
+    grid-template-columns: 1fr;
   }
 }
 

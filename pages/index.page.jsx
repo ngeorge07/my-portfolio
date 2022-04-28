@@ -7,6 +7,7 @@ import { Link } from "../components/Link";
 import TextSection from "../components/TextSection";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsContainer from "../components/ProjectsContainer";
+import SkillBar from "../components/SkillBar";
 
 export { Page };
 
@@ -74,6 +75,18 @@ function Page() {
           See all my projects
         </Link>
       </ProjectsContainer>
+
+      <section>
+        <h3>Skills</h3>
+        <div className="skills-section">
+          <SkillBar text="HTML" level={95} />
+          <SkillBar text="CSS (SASS)" level={85} />
+          <SkillBar text="JavaScript" level={90} />
+          <SkillBar text="React" level={80} />
+          <SkillBar text="Git" level={85} />
+          <SkillBar text="Debugging" level={95} />
+        </div>
+      </section>
     </>
   );
 }

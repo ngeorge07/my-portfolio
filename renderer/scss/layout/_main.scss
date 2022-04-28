@@ -120,6 +120,28 @@
   }
 }
 
+.skill-bar-cont {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--text-color);
+  height: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+
+  .skill-bar {
+    height: 100%;
+    background-color: var(--secondary);
+  }
+}
+
+.skills-section {
+  display: grid;
+  column-gap: 5rem;
+  row-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 @media only screen and (max-width: 620px) {
   .intro-section {
     flex-direction: column-reverse;
