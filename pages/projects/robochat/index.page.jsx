@@ -22,7 +22,10 @@ function Page() {
       <TextSection title="Tech stack">
         In this project I used React and Firebase. I wrote the Firebase
         initialization as a function in JS. The styling was done with SASS and I
-        used Vite as the build tool.
+        used Vite as the build tool. The functionality is a combination of React
+        and vanilla JS. While the app works I am aware that it's not best
+        practice and very "hacky". I will rebuild it with pure React soon
+        enough.
       </TextSection>
 
       <span className="vertical-line"></span>
