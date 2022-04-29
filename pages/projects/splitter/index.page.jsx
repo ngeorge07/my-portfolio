@@ -28,6 +28,7 @@ function Page() {
         Insert the bill amount, the number of people sharing and the amount you
         want to tip and the calculator will take care of the rest. Challenged by{" "}
         <a
+          target="_blank"
           className="inline-link"
           href="https://www.frontendmentor.io?ref=challenge"
         >
