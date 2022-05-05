@@ -8,6 +8,7 @@ import TextSection from "../components/TextSection";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsContainer from "../components/ProjectsContainer";
 import SkillBar from "../components/SkillBar";
+import data from "./projects/projects.json";
 
 export { Page };
 
@@ -51,7 +52,17 @@ function Page() {
 
       <ProjectsContainer title="Project Showcase">
         <div className="double-side">
-          <ProjectCard
+          {data.slice(0, 4).map((projectObj) => (
+            <ProjectCard
+              url={projectObj.url}
+              imgPath={projectObj.imgPath}
+              title={projectObj.title}
+              key={projectObj.id}
+            >
+              <p>{projectObj.text}</p>
+            </ProjectCard>
+          ))}
+          {/* <ProjectCard
             url="/projects/splitter"
             imgPath={pictureSplitter}
             title="Tip Calculator App"
@@ -68,7 +79,7 @@ function Page() {
             title="Hacked Hogwarts"
           >
             <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard>
+          </ProjectCard> */}
         </div>
 
         <Link className="main-button" href="/projects">

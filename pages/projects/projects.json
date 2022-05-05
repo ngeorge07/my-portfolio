@@ -7,11 +7,11 @@
     "text": "A calculator that helps you split the bill and calculate the tip. Made with React + Tailwind and built with Vite."
   },
   {
-    "id": 1,
-    "url": "/projects/robochat",
-    "imgPath": "/robo-chat.webp",
-    "title": "Robo Chat",
-    "text": "Single page chat application built with React and Firebase"
+    "id": 6,
+    "url": "/projects/todo",
+    "imgPath": "/todolist.webp",
+    "title": "To-Do List",
+    "text": "An over engineered to-do list made with React, ChakraUI and Firestore."
   },
   {
     "id": 2,
@@ -19,6 +19,13 @@
     "imgPath": "/hacked-hogwarts.webp",
     "title": "Hacked Hogwarts",
     "text": "Hogwarts student database build with vanilla JavaScript"
+  },
+  {
+    "id": 1,
+    "url": "/projects/robochat",
+    "imgPath": "/robo-chat.webp",
+    "title": "Robo Chat",
+    "text": "Single page chat application built with React and Firebase"
   },
   {
     "id": 3,
