@@ -1,13 +1,11 @@
 import React from "react";
 import profilePic from "/pictureMe.webp";
-import pictureSplitter from "/splitter.webp";
-import pictureHacked from "/hacked-hogwarts.webp";
 
 import { Link } from "../components/Link";
 import TextSection from "../components/TextSection";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsContainer from "../components/ProjectsContainer";
-import SkillBar from "../components/SkillBar";
+import Skill from "../components/Skill";
 import data from "./projects/projects.json";
 
 export { Page };
@@ -62,24 +60,6 @@ function Page() {
               <p>{projectObj.text}</p>
             </ProjectCard>
           ))}
-          {/* <ProjectCard
-            url="/projects/splitter"
-            imgPath={pictureSplitter}
-            title="Tip Calculator App"
-          >
-            <p>
-              A calculator that helps you split the bill and calculate the tip.
-              Made with React + Tailwind and built with Vite.
-            </p>
-          </ProjectCard>
-
-          <ProjectCard
-            url="/projects/hogwarts"
-            imgPath={pictureHacked}
-            title="Hacked Hogwarts"
-          >
-            <p>Hogwarts student database build with vanilla JavaScript.</p>
-          </ProjectCard> */}
         </div>
 
         <Link className="main-button" href="/projects">
@@ -88,14 +68,15 @@ function Page() {
       </ProjectsContainer>
 
       <section>
-        <h3>Skills</h3>
+        <h3>Tech I work with</h3>
         <div className="skills-section">
-          <SkillBar text="HTML" level={95} />
-          <SkillBar text="CSS (SASS)" level={85} />
-          <SkillBar text="JavaScript" level={90} />
-          <SkillBar text="React" level={80} />
-          <SkillBar text="Git" level={85} />
-          <SkillBar text="Debugging" level={95} />
+          <Skill imgUrl={"/skills/html.svg"} caption="HTML" />
+          <Skill imgUrl={"/skills/css.svg"} caption="CSS" />
+          <Skill imgUrl={"/skills/sass.svg"} caption="SASS" />
+          <Skill imgUrl={"/skills/js.svg"} caption="JavaScript" />
+          <Skill imgUrl={"/skills/react.svg"} caption="React" />
+          <Skill imgUrl={"/skills/tailwind.svg"} caption="Tailwind" />
+          <Skill imgUrl={"/skills/git.svg"} caption="Git" />
         </div>
       </section>
     </>

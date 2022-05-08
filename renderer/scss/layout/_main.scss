@@ -136,10 +136,11 @@
 }
 
 .skills-section {
+  margin-top: 1rem;
   display: grid;
-  column-gap: 5rem;
-  row-gap: 3rem;
-  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 4rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 @media only screen and (max-width: 620px) {

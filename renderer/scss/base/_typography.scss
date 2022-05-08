@@ -9,11 +9,16 @@ body {
   line-height: 1.75;
 }
 
-p {
+p,
+figcaption {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: var(--text-color);
   font-size: calc(15px + (18 - 15) * ((100vw - 360px) / (1600 - 360)));
+}
+
+figcaption {
+  text-align: center;
 }
 
 a {
