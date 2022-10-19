@@ -30,8 +30,7 @@ function Page() {
         <a
           target="_blank"
           className="inline-link"
-          href="https://www.frontendmentor.io?ref=challenge"
-        >
+          href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>
         .

@@ -1,5 +1,12 @@
 [
   {
+    "id": 7,
+    "url": "/projects/audiophille",
+    "imgPath": "/audiophille.webp",
+    "title": "Audiphille Website",
+    "text": "A e-commerce website for headsets. Made with Next.js + TypeScript + Tailwind + Redux Toolkit + Storybook"
+  },
+  {
     "id": 0,
     "url": "/projects/splitter",
     "imgPath": "/splitter.webp",
