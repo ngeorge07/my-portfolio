@@ -6,228 +6,228 @@
 @use "./base/typography";
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 button {
-  background: none;
-  border: none;
+	background: none;
+	border: none;
 
-  &:hover {
-    cursor: pointer;
-  }
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 body {
-  font-family: sans-serif;
-  background-color: var(--page-background-color);
-  color: var(--text-color);
+	font-family: sans-serif;
+	background-color: var(--page-background-color);
+	color: var(--text-color);
 }
 
 main {
-  max-width: 87%;
-  margin: auto;
-  padding-top: 7rem;
+	max-width: 87%;
+	margin: auto;
+	padding-top: 7rem;
 }
 
 section {
-  padding: 4rem 0;
+	padding: 4rem 0;
 
-  h3 {
-    padding-bottom: 1rem;
-  }
+	h3 {
+		padding-bottom: 1rem;
+	}
 }
 
 .inline-link {
-  color: var(--secondary);
+	color: var(--secondary);
 }
 
 a {
-  text-decoration: none;
-  color: var(--text-color);
+	text-decoration: none;
+	color: var(--text-color);
 }
 
 .accent-color {
-  color: var(--accent-light);
+	color: var(--secondary);
 }
 
 .progress-value {
-  animation: load 3s normal forwards;
+	animation: load 3s normal forwards;
 }
 
 .card-image {
-  max-width: 40vw;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  width: 100%;
+	max-width: 40vw;
+	object-fit: cover;
+	border-radius: 0.5rem;
+	width: 100%;
 }
 
 .card-a {
-  text-align: center;
-  padding: 8px 15px;
-  transition: transform 0.2s ease;
+	text-align: center;
+	padding: 8px 15px;
+	transition: transform 0.2s ease;
 
-  &:hover {
-    transform: translateY(-10px);
-    h4 {
-      color: var(--secondary);
-    }
-  }
+	&:hover {
+		transform: translateY(-10px);
+		h4 {
+			color: var(--secondary);
+		}
+	}
 
-  h4 {
-    transition: color 0.2s ease;
-    padding-top: 0.5rem;
-  }
+	h4 {
+		transition: color 0.2s ease;
+		padding-top: 0.5rem;
+	}
 }
 
 @keyframes load {
-  0% {
-    width: 0;
-  }
+	0% {
+		width: 0;
+	}
 
-  25% {
-    width: 25%;
-  }
+	25% {
+		width: 25%;
+	}
 
-  70% {
-    width: 70%;
-  }
+	70% {
+		width: 70%;
+	}
 
-  100% {
-    width: 100%;
-  }
+	100% {
+		width: 100%;
+	}
 }
 
 // Transitions
 .page-transition-start {
-  transition: all 0.3s ease-in-out;
-  transform: translate(0, 20px);
-  opacity: 0;
+	transition: all 0.3s ease-in-out;
+	transform: translate(0, 20px);
+	opacity: 0;
 }
 
 .page-transition-end {
-  transition: all 0.3s ease-in-out;
-  transform: translate(0, 0);
-  opacity: 1;
+	transition: all 0.3s ease-in-out;
+	transform: translate(0, 0);
+	opacity: 1;
 }
 
 @media only screen and (max-width: 730px) {
-  nav {
-    h1 {
-      font-size: 2.2rem;
-    }
-  }
+	nav {
+		h1 {
+			font-size: 2.2rem;
+		}
+	}
 
-  .vertical-line {
-    border-bottom: 1px solid var(--accent);
-  }
+	.vertical-line {
+		border-bottom: 1px solid var(--accent);
+	}
 
-  .double-side {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
+	.double-side {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
 
-  .double-side-text {
-    flex-direction: column;
-    gap: 2rem;
+	.double-side-text {
+		flex-direction: column;
+		gap: 2rem;
 
-    div:first-of-type {
-      width: 90%;
-    }
+		div:first-of-type {
+			width: 90%;
+		}
 
-    div:nth-of-type(2) {
-      width: 90%;
-    }
-  }
+		div:nth-of-type(2) {
+			width: 90%;
+		}
+	}
 
-  .card-image {
-    max-width: 60%;
-  }
+	.card-image {
+		max-width: 60%;
+	}
 
-  section {
-    h3 {
-      padding-bottom: 0.8rem;
-    }
-  }
+	section {
+		h3 {
+			padding-bottom: 0.8rem;
+		}
+	}
 
-  .project-intro {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    gap: 2rem;
-    margin-bottom: -3rem;
+	.project-intro {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		gap: 2rem;
+		margin-bottom: -3rem;
 
-    img {
-      max-width: 100%;
-    }
-  }
+		img {
+			max-width: 100%;
+		}
+	}
 
-  .skills-section {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+	.skills-section {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
 }
 
 @media only screen and (max-width: 575px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.6rem;
+	nav {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.6rem;
 
-    a {
-      font-size: 0.95rem;
-    }
-  }
+		a {
+			font-size: 0.95rem;
+		}
+	}
 
-  section {
-    padding: 3rem 0;
-  }
+	section {
+		padding: 3rem 0;
+	}
 
-  .double-side,
-  .double-side-text {
-    gap: 2rem;
-  }
+	.double-side,
+	.double-side-text {
+		gap: 2rem;
+	}
 
-  .double-side-text {
-    div:first-of-type,
-    div:nth-of-type(2) {
-      width: 100%;
-    }
-  }
+	.double-side-text {
+		div:first-of-type,
+		div:nth-of-type(2) {
+			width: 100%;
+		}
+	}
 
-  .project-title {
-    margin-bottom: -1rem;
-  }
+	.project-title {
+		margin-bottom: -1rem;
+	}
 
-  .card-image {
-    max-width: 100%;
-  }
+	.card-image {
+		max-width: 100%;
+	}
 
-  .skills-section {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+	.skills-section {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }
 
 @media only screen and (max-width: 315px) {
-  header {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-start;
-  }
+	header {
+		flex-direction: column;
+		gap: 0.5rem;
+		align-items: flex-start;
+	}
 
-  #change-theme {
-    width: 2rem;
-  }
+	#change-theme {
+		width: 2rem;
+	}
 
-  nav {
-    li:last-of-type {
-      a {
-        gap: 0px;
-      }
-    }
-  }
+	nav {
+		li:last-of-type {
+			a {
+				gap: 0px;
+			}
+		}
+	}
 }
