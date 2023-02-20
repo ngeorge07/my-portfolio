@@ -10,29 +10,29 @@ import LoadingScreen from "../components/LoadingScreen";
 export { PageShell };
 
 function PageShell({ pageContext, children }) {
-  const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 3000);
-  }, []);
+	useEffect(() => {
+		setTimeout(() => setLoading(false), 500);
+	}, []);
 
-  return (
-    <>
-      {loading === false ? (
-        <React.StrictMode>
-          <PageContextProvider pageContext={pageContext}>
-            <Header />
-            <Content>{children}</Content>
-            <Footer />
-          </PageContextProvider>
-        </React.StrictMode>
-      ) : (
-        <LoadingScreen />
-      )}
-    </>
-  );
+	return (
+		<>
+			{loading === false ? (
+				<React.StrictMode>
+					<PageContextProvider pageContext={pageContext}>
+						<Header />
+						<Content>{children}</Content>
+						<Footer />
+					</PageContextProvider>
+				</React.StrictMode>
+			) : (
+				<LoadingScreen />
+			)}
+		</>
+	);
 }
 
 function Content({ children }) {
-  return <main id="page-content">{children}</main>;
+	return <main id="page-content">{children}</main>;
 }

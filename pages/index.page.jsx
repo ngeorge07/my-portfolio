@@ -31,12 +31,11 @@ function Page() {
 
 			<section className="double-side-text">
 				<TextSection title="My skills">
-					I am an accomplished developer with extensive experience in JavaScript
-					frameworks like React and <span className="accent-color">Next</span>,
-					and styling libraries such as{" "}
-					<span className="accent-color">Tailwind</span> and ChakraUI. My coding
-					practices prioritize clean, safe, and scalable code, and I work with
-					BaaS products like Firebase and{" "}
+					I am an front-end developer with experience in JavaScript frameworks
+					like React and <span className="accent-color">Next</span>, and styling
+					libraries such as <span className="accent-color">Tailwind</span> and
+					ChakraUI. My coding practices prioritize clean, safe, and scalable
+					code, and I work with BaaS products like Firebase and{" "}
 					<span className="accent-color">Supabase</span> for seamless backend
 					integration. I am dedicated to continuous learning to deliver
 					high-quality solutions that meet client business objectives. Check my{" "}
@@ -50,8 +49,8 @@ function Page() {
 				</TextSection>
 				<span className="vertical-line"></span>
 				<TextSection title="My experience">
-					I am an skilled front-end developer with a strong track record of
-					delivering solutions. I recently graduated with top honors from KEA -
+					I have a strong track record of delivering dependable solutions within
+					designated timelines. I recently graduated with top honors from KEA -
 					Copenhagen School of Design and Development with an AP degree in
 					Multimedia Design. I possess a keen eye for good UI/UX layouts and a
 					good understanding of web design principles. Currently, I work as a
